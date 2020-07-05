@@ -2,7 +2,11 @@ package cn.sinosoft.testIo;
 
 import java.io.*;
 
+<<<<<<< HEAD
 public class TestIoClass {//lgt1314
+=======
+public class TestIoClass {//liuguotong
+>>>>>>> king
 
     public static void main(String[] args) throws IOException {
         FileInputStream inputStream = null;
