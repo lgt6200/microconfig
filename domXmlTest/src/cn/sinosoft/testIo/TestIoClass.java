@@ -2,7 +2,7 @@ package cn.sinosoft.testIo;
 
 import java.io.*;
 
-public class TestIoClass {
+public class TestIoClass {//liuguotong
 
     public static void main(String[] args) throws IOException {
         FileInputStream inputStream = null;
