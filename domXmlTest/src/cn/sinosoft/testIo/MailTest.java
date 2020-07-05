@@ -38,10 +38,10 @@ public class MailTest {
 
         // 获得收件箱
         Folder folder = store.getFolder("INBOX");
-        */
-/*
+        
+
          * Folder.READ_ONLY：只读权限 Folder.READ_WRITE：可读可写（可以修改邮件的状态）
-         *//*
+         
 
         folder.open(Folder.READ_WRITE); // 打开收件箱
 
@@ -63,7 +63,7 @@ public class MailTest {
         store.close();
     }
 
-    */
+   
 /**
      * 解析邮件
      *
@@ -140,25 +140,6 @@ public class MailTest {
         return receiveAddress.toString();
     }
 
-    */
-/**
-     * 获得邮件发送时间
-     *
-     * @param msg
-     *            邮件内容
-     * @return yyyy年mm月dd日 星期X HH:mm
-     * @throws MessagingException
-     *//*
 
-    public static String getSentDate(MimeMessage msg, String pattern) throws MessagingException {
-        Date receivedDate = msg.getSentDate();
-        if (receivedDate == null)
-            return "";
-
-        if (pattern == null || "".equals(pattern))
-            pattern = "yyyy年MM月dd日 E HH:mm ";
-
-        return new SimpleDateFormat(pattern).format(receivedDate);
-    }
 }
 */
